@@ -1,0 +1,144 @@
+Voici le code intégré. J'ai corrigé la balise <script> qui était interrompue par la barre sociale, déplacé les éléments structurels (footer et boutons) à l'intérieur du corps (body) pour respecter la hiérarchie HTML, et converti les liens de navigation en boutons comme demandé.
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tournyx Esport</title>
+
+  <style>
+    body {
+      margin:0;
+      background:#0b0f19;
+      color:white;
+      font-family:Arial;
+    }
+
+    header {
+      padding:30px;
+      text-align:center;
+      background:linear-gradient(90deg,#00ffc8,#007cf0);
+      color:black;
+    }
+
+    nav {
+      background:#111827;
+      padding:15px;
+      text-align:center;
+    }
+
+    nav a {
+      margin:10px;
+      color:#00ffc8;
+      text-decoration:none;
+    }
+
+    .section {
+      padding:30px;
+      text-align:center;
+    }
+
+    .grid {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+
+    .card {
+      background:#111827;
+      margin:10px;
+      padding:15px;
+      border-radius:10px;
+      width:220px;
+    }
+
+    img {
+      width:100%;
+      border-radius:8px;
+    }
+
+    button {
+      background:#00ffc8;
+      border:none;
+      padding:10px;
+      margin:5px;
+      cursor:pointer;
+      border-radius: 5px;
+      font-weight: bold;
+      color: black;
+    }
+
+    .social-bar {
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🎮 TOURNYX ESPORT</h1>
+  <p>Competitive Platform • Crypto Prize</p>
+</header>
+
+<nav>
+  <a href="#shop"><button>Shop</button></a>
+  <a href="#tournaments"><button>Tournaments</button></a>
+  <a href="#ann"><button>Announcements</button></a>
+</nav>
+
+<div class="section">
+  <h3>💰 USDT BEP20</h3>
+  <code>0x3021AF173Aa69C8b66C7850aa6C6DFc3F66C4233</code>
+</div>
+
+<!-- SHOP -->
+<div class="section" id="shop">
+  <h2>Shop</h2>
+  <div id="shop-list" class="grid"></div>
+</div>
+
+<!-- TOURNAMENTS -->
+<div class="section" id="tournaments">
+  <h2>Tournaments</h2>
+  <div id="tournament-list" class="grid"></div>
+</div>
+
+<!-- ANNOUNCEMENTS -->
+<div class="section" id="ann">
+  <h2>Announcements</h2>
+  <div id="ann-list" class="grid"></div>
+</div>
+
+<div class="social-bar">
+  <a href="https://discord.gg/mk3uFdbU" target="_blank"><button>Discord</button></a>
+  <a href="https://youtube.com/@tournyxesport" target="_blank"><button>YouTube</button></a>
+  <a href="https://www.tiktok.com/@tournyxesport" target="_blank"><button>TikTok</button></a>
+  <a href="https://www.instagram.com/tournyxesport" target="_blank"><button>Instagram</button></a>
+  <a href="https://x.com/tournyxesport" target="_blank"><button>X</button></a>
+  <a href="https://www.facebook.com/share/1DywZEPyji/" target="_blank"><button>Facebook</button></a>
+  <a href="https://www.threads.com/@tournyxesport" target="_blank"><button>Threads</button></a>
+</div>
+
+<footer style="text-align:center;padding:20px;background:#020617">
+  <p>© 2026 Tournyx Esport</p>
+  <p>Contact: tournyxesport@gmail.com</p>
+  <div>
+    <a href="https://discord.gg/mk3uFdbU"><button>Discord</button></a>
+    <a href="https://youtube.com/@tournyxesport"><button>YouTube</button></a>
+    <a href="https://www.tiktok.com/@tournyxesport"><button>TikTok</button></a>
+  </div>
+</footer>
+
+<div style="text-align: center; padding-bottom: 30px;">
+  <a href="https://discord.gg/mk3uFdbU">
+    <button style="padding: 15px 30px; font-size: 1.2em;">Join Discord</button>
+  </a>
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
+
+```
