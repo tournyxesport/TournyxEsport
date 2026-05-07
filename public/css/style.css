@@ -1,0 +1,57 @@
+body{
+  margin:0;
+  background:#0b1020;
+  color:white;
+  font-family:Arial;
+}
+
+header{
+  background:#111827;
+  padding:30px;
+  text-align:center;
+}
+
+nav{
+  background:#0f172a;
+  padding:15px;
+  text-align:center;
+}
+
+nav a{
+  color:#00ffc8;
+  margin:10px;
+  text-decoration:none;
+}
+
+.socials{
+  margin-top:20px;
+}
+
+.socials a{
+  margin:5px;
+  color:white;
+}
+
+.hero{
+  text-align:center;
+  padding:50px;
+}
+
+.card{
+  background:#111827;
+  margin:15px;
+  padding:15px;
+  border-radius:10px;
+}
+
+img{
+  width:100%;
+  border-radius:10px;
+}
+
+button{
+  background:#00ffc8;
+  border:none;
+  padding:10px;
+  cursor:pointer;
+}
